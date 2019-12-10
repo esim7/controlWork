@@ -1,0 +1,15 @@
+﻿<Window x:Class="contWork.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:contWork"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="300">
+    <Grid>
+        <TextBox Name="textBox_Period" HorizontalAlignment="Left" Margin="150,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Период (мин): " HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="34,31,0,0" VerticalAlignment="Top" Width="92"/>
+        <Button Content="Сохранить" HorizontalAlignment="Center" Margin="0,88,0,0" VerticalAlignment="Top" Width="64" Click="saveButton_Click"/>
+        <TextBlock Name="timer" HorizontalAlignment="Left" Margin="197,88,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="93"/>
+    </Grid>
+</Window>
